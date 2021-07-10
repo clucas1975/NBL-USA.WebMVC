@@ -1,0 +1,2 @@
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\obj\Debug\NBL-USA.WebMVC.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\obj\Debug\NBL-USA.WebMVC.csproj.CoreCompileInputs.cache
