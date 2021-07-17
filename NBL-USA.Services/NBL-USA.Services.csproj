@@ -54,11 +54,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrontOfficeStaffService.cs" />
+    <Compile Include="LeagueStaffService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RosterService.cs" />
+    <Compile Include="TeamService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NBL-USA.Data\NBL-USA.Data.csproj">
+      <Project>{ac29f874-a7cf-473c-8d79-278b918ed349}</Project>
+      <Name>NBL-USA.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NBL-USA.Models\NBL-USA.Models.csproj">
+      <Project>{23761974-7bb5-4274-83e9-6cf17f441ea5}</Project>
+      <Name>NBL-USA.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

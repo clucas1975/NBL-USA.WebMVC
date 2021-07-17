@@ -33,6 +33,10 @@ namespace NBL_USA.Data
         }
 
         public DbSet<LeagueStaff> LeagueStaffs { get; set; }
+        public DbSet<Team> Teams { get; set; }
+        public DbSet<Roster> Rosters { get; set; }
+        public DbSet<FrontOfficeStaff> FrontOfficeStaffs { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

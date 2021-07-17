@@ -1,0 +1,45 @@
+﻿@model IEnumerable<NBL_USA.Models.FrontOfficeStaffListItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TeamGeneralManagerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AcademicAdvisorName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DirectorOfBasketballOperationsName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TeamGeneralManagerName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AcademicAdvisorName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DirectorOfBasketballOperationsName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.FrontOfficeStaffID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.FrontOfficeStaffID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.FrontOfficeStaffID })
+        </td>
+    </tr>
+}
+
+</table>

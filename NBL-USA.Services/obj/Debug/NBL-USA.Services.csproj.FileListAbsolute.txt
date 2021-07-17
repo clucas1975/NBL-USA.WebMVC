@@ -14,3 +14,9 @@ C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\obj\Debug\NBL-USA.Services.cspro
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\obj\Debug\NBL-USA.Services.csproj.CopyComplete
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\obj\Debug\NBL-USA.Services.dll
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\obj\Debug\NBL-USA.Services.pdb
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Data.dll
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Models.dll
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Data.pdb
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Data.dll.config
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Models.pdb
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Models.dll.config
