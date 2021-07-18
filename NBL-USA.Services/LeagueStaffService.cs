@@ -22,7 +22,7 @@ namespace NBL_USA.Services
             var entity =
                 new LeagueStaff()
                 {
-
+                    OwnerId = _userId,
                     LeagueStaffName = model.LeagueStaffName,
                     LeagueStaffPosition = model.LeagueStaffPosition,
                     LeagueStaffStillWorking = model.LeagueStaffStillWorking
@@ -38,7 +38,17 @@ namespace NBL_USA.Services
         {
             using (var ctx = new ApplicationDbContext())
             {
-
+                var query =
+                    ctx
+                        .LeagueStaffs
+                        .Where(e => e.OwnerId == _userId)
+                        .Select(e => new LeagueStaffListItem
+                        {
+                            LeagueStaffId = e.LeagueStaffId,
+                            LeagueStaffName = e.LeagueStaffName,
+                            LeagueStaffPosition = e.LeagueStaffPosition
+                        });
+                return query.ToArray();
             }
         }
 

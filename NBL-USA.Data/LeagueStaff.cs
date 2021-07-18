@@ -11,7 +11,10 @@ namespace NBL_USA.Data
     public class LeagueStaff
     {
         [Key]
-        public int LeagueStaffID { get; set; }
+        public int LeagueStaffId { get; set; }
+
+        [Required]
+        public Guid OwnerId { get; set; }
 
         [Required]
         public string LeagueStaffName { get; set; }

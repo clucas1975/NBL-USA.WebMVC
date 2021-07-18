@@ -10,7 +10,7 @@ namespace NBL_USA.Models
    public class LeagueStaffListItem
     {
         [Key]
-        public int LeagueStaffID { get; set; }
+        public int LeagueStaffId { get; set; }
 
         [Required]
         public string LeagueStaffName { get; set; }
