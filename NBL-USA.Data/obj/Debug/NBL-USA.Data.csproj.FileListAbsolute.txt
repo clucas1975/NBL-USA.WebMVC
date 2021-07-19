@@ -14,5 +14,5 @@ C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Data\obj\Debug\NBL-USA.Data.csproj.CoreCo
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Data\obj\Debug\NBL-USA.Data.csproj.CopyComplete
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Data\obj\Debug\NBL-USA.Data.dll
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Data\obj\Debug\NBL-USA.Data.pdb
-C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Data\obj\Debug\NBL_USA.Data.Migrations.CodeCorrections.resources
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Data\obj\Debug\NBL_USA.Data.Migrations.updates.resources
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Data\obj\Debug\NBL-USA.Data.csproj.GenerateResource.cache

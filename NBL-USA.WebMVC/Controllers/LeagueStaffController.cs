@@ -1,5 +1,7 @@
-﻿using NBL_USA.Data;
+﻿using Microsoft.AspNet.Identity;
+using NBL_USA.Data;
 using NBL_USA.Models;
+using NBL_USA.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +17,10 @@ namespace NBL_USA.WebMVC.Controllers
         // GET: LeagueStaff
         public ActionResult Index()
         {
-            var model = new LeagueStaffListItem[0];
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var service = new LeagueStaffService(userId);
+            var model = service.GetLeagueStaffs();
+
             return View(model);
         }
 
@@ -29,15 +34,36 @@ namespace NBL_USA.WebMVC.Controllers
         //Add code here vvvv
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(LeagueStaff leagueStaff)
+        public ActionResult Create(LeagueStaff model)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid) return View(model);
+
+            var service = CreateLeagueStaffService();
+
+
+
+
+
+
+            if (service.CreateLeagueStaff(model))
             {
-                _db.LeagueStaffs.Add(leagueStaff);
-                _db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            return View(leagueStaff);
+             TempData["SaveResult"] = "Your League Staff was created.";
+             return RedirectToAction("Index");
+            };
+            ModelState.AddModelError("", "League Staff could not be created.");
+
+            return View(model);
+
+
+
+        }
+
+        private LeagueStaffService CreateLeagueStaffService()
+
+        {
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var service = new LeagueStaffService(userId);
+            return service;
         }
     }
 }

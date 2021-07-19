@@ -17,7 +17,7 @@ namespace NBL_USA.Services
             _userId = userId;
         }
 
-        public bool CreateLeagueStaff(LeagueStaffCreate model)
+        public bool CreateLeagueStaff(LeagueStaff model)
         {
             var entity =
                 new LeagueStaff()

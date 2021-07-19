@@ -57,9 +57,9 @@
     <Compile Include="FrontOfficeStaff.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="LeagueStaff.cs" />
-    <Compile Include="Migrations\202107160142254_CodeCorrections.cs" />
-    <Compile Include="Migrations\202107160142254_CodeCorrections.Designer.cs">
-      <DependentUpon>202107160142254_CodeCorrections.cs</DependentUpon>
+    <Compile Include="Migrations\202107190535343_updates.cs" />
+    <Compile Include="Migrations\202107190535343_updates.Designer.cs">
+      <DependentUpon>202107190535343_updates.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,8 +71,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202107160142254_CodeCorrections.resx">
-      <DependentUpon>202107160142254_CodeCorrections.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202107190535343_updates.resx">
+      <DependentUpon>202107190535343_updates.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

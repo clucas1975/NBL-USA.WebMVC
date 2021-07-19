@@ -7,13 +7,13 @@ namespace NBL_USA.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.0-30225")]
-    public sealed partial class CodeCorrections : IMigrationMetadata
+    public sealed partial class updates : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CodeCorrections));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(updates));
         
         string IMigrationMetadata.Id
         {
-            get { return "202107160142254_CodeCorrections"; }
+            get { return "202107190535343_updates"; }
         }
         
         string IMigrationMetadata.Source
