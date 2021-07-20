@@ -52,5 +52,24 @@ namespace NBL_USA.Services
             }
         }
 
+       public LeagueStaffDetail GetLeagueStaffById(int id)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                        .LeagueStaffs
+                        .Single(e => e.LeagueStaffId == id && e.OwnerId == _userId);
+                return
+                    new LeagueStaffDetail
+                    {
+                        LeagueStaffId = entity.LeagueStaffId,
+                        LeagueStaffName = entity.LeagueStaffName,
+                        LeagueStaffPosition = entity.LeagueStaffPosition
+                    };
+            }
+                    
+        }
+
     }   
 }

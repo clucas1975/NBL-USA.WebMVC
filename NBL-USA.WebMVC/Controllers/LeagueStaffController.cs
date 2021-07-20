@@ -58,6 +58,14 @@ namespace NBL_USA.WebMVC.Controllers
 
         }
 
+        public ActionResult Details(int id)
+        {
+            var svc = CreateLeagueStaffService();
+            var model = svc.GetLeagueStaffById(id);
+
+            return View(model);
+        }
+
         private LeagueStaffService CreateLeagueStaffService()
 
         {
