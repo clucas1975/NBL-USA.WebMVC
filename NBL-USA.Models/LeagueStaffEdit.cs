@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace NBL_USA.Models
 {
-    class LeagueStaffEdit
-    {
+  public class LeagueStaffEdit
+  {
+        public int LeagueStaffId { get; set; }
+        public string LeagueStaffName { get; set; }
+        public string LeagueStaffPosition { get; set; }
     }
 }

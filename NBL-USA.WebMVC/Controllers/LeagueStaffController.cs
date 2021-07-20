@@ -73,5 +73,19 @@ namespace NBL_USA.WebMVC.Controllers
             var service = new LeagueStaffService(userId);
             return service;
         }
+
+        public ActionResult Edit(int id)
+        {
+            var service = CreateLeagueStaffService();
+            var detail = service.GetLeagueStaffById(id);
+            var model =
+                new LeagueStaffEdit
+                {
+                    LeagueStaffId = detail.LeagueStaffId,
+                    LeagueStaffName = detail.LeagueStaffName,
+                    LeagueStaffPosition = detail.LeagueStaffPosition
+                };
+            return View(model);
+        }
     }
 }

@@ -52,7 +52,7 @@ namespace NBL_USA.Services
             }
         }
 
-       public LeagueStaffDetail GetLeagueStaffById(int id)
+        public LeagueStaffDetail GetLeagueStaffById(int id)
         {
             using (var ctx = new ApplicationDbContext())
             {
@@ -68,7 +68,21 @@ namespace NBL_USA.Services
                         LeagueStaffPosition = entity.LeagueStaffPosition
                     };
             }
-                    
+        }            
+       
+        public bool UpdateLeagueStaff(LeagueStaffEdit model)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                        .LeagueStaffs
+                        .Single(e => e.LeagueStaffId == model.LeagueStaffId && e.OwnerId == _userId);
+                entity.LeagueStaffName = model.LeagueStaffName;
+                entity.LeagueStaffPosition = model.LeagueStaffPosition;
+
+                return ctx.SaveChanges() == 1;
+            }
         }
 
     }   

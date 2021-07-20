@@ -246,6 +246,7 @@
     <Content Include="Views\FrontOfficeStaff\Create.cshtml" />
     <Content Include="Views\Roster\Create.cshtml" />
     <Content Include="Views\Team\Create.cshtml" />
+    <Content Include="Views\LeagueStaff\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
