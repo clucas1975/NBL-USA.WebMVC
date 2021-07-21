@@ -87,5 +87,51 @@ namespace NBL_USA.WebMVC.Controllers
                 };
             return View(model);
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, LeagueStaffEdit model)
+        {
+            if (!ModelState.IsValid) return View(model);
+
+            if (model.LeagueStaffId != id)
+            {
+                ModelState.AddModelError("", "Id Mismatch");
+                return View(model);
+            }
+
+            var service = CreateLeagueStaffService();
+
+            if (service.UpdateLeagueStaff(model))
+            {
+                TempData["SaveResult"] = "Your League Staff was updated.";
+                return RedirectToAction("Index");
+            }
+
+            ModelState.AddModelError("", "Your League Staff could not be updated.");
+            return View(model);
+        }
+
+        [ActionName("Delete")]
+        public ActionResult Delete(int id)
+        {
+            var svc = CreateLeagueStaffService();
+            var model = svc.GetLeagueStaffById(id);
+
+            return View(model);
+        }
+
+       [HttpPost]
+       [ActionName("Delete")]
+       [ValidateAntiForgeryToken]
+        public ActionResult DeletePost(int id)
+        {
+            var service = CreateLeagueStaffService();
+
+            service.DeleteLeagueStaff(id);
+
+            TempData["Save Result"] = "Your League Staff was deleted";
+            return RedirectToAction("Index");
+        }
     }
 }

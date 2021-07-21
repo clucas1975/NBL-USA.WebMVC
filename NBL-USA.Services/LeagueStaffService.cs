@@ -85,5 +85,20 @@ namespace NBL_USA.Services
             }
         }
 
+        public bool DeleteLeagueStaff(int leagueStaffId)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                        .LeagueStaffs
+                        .Single(e => e.LeagueStaffId == leagueStaffId && e.OwnerId == _userId);
+
+                ctx.LeagueStaffs.Remove(entity);
+
+                return ctx.SaveChanges() == 1;
+            }
+        }
+
     }   
 }
