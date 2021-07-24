@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace NBL_USA.Models
 {
-    class TeamDetail
+    public class TeamDetail
     {
+        public int TeamID { get; set; }
+        public string TeamOwner { get; set; }
+        public string TeamName { get; set; }
+        public string TeamLocation { get; set; }
+        public string TeamArena { get; set; }
     }
 }

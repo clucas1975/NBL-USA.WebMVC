@@ -12,7 +12,7 @@ namespace NBL_USA.Data
     public class Roster
     {
         [Key]
-        public int RosterID { get; set; }
+        public int RosterId { get; set; }
 
 
         [Required]

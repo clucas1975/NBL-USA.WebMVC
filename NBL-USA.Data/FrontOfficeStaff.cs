@@ -12,14 +12,14 @@ namespace NBL_USA.Data
    public class FrontOfficeStaff
    {
         [Key]
-        public int FrontOfficeStaffID { get; set; }
+        public int FrontOfficeStaffId { get; set; }
 
         [ForeignKey(nameof(Team))]
-        public int TeamID { get; set; }
+        public int TeamId { get; set; }
         public virtual Team Team { get; set; }
 
         [ForeignKey(nameof(Roster))]
-        public int RosterID { get; set; }
+        public int RosterId { get; set; }
         public virtual Roster Roster { get; set; }
 
         [Required]

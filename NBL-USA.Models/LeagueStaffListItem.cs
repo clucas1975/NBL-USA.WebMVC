@@ -17,5 +17,8 @@ namespace NBL_USA.Models
 
         [Required]
         public string LeagueStaffPosition { get; set; }
+
+        [Required]
+        public bool LeagueStaffStillWorking { get; set; }
     }
 }

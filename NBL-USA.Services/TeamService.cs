@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace NBL_USA.Services
 {
-    class TeamService
+    public class TeamService
     {
+
     }
 }

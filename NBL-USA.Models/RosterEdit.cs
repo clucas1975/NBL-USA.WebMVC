@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace NBL_USA.Models
 {
-    class RosterEdit
+    public class RosterEdit
     {
+        public int RosterID { get; set; }
+        public string CoachName { get; set; }
+        public string AssistantCoachName { get; set; }
+        public bool StillActive { get; set; }
     }
 }

@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace NBL_USA.Models
 {
-    class FrontOfficeStaffEdit
+    public class FrontOfficeStaffEdit
     {
+        public int FrontOfficeStaffId { get; set; }
+        public string TeamGeneralManagerName { get; set; }
+        public string AcademicAdvisorName { get; set; }
+        public string DirectorOfBasketballOperationsName { get; set; }
+        
     }
 }

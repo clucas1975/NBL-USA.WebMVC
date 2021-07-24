@@ -249,6 +249,8 @@
     <Content Include="Views\LeagueStaff\Details.cshtml" />
     <Content Include="Views\LeagueStaff\Edit.cshtml" />
     <Content Include="Views\LeagueStaff\Delete.cshtml" />
+    <Content Include="Views\FrontOfficeStaff\Details.cshtml" />
+    <Content Include="Views\FrontOfficeStaff\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

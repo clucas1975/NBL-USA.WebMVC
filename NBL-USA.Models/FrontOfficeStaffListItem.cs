@@ -11,7 +11,7 @@ namespace NBL_USA.Models
     public class FrontOfficeStaffListItem
     {
         [Key]
-        public int FrontOfficeStaffID { get; set; }
+        public int FrontOfficeStaffId { get; set; }
 
        
 
@@ -24,6 +24,8 @@ namespace NBL_USA.Models
         [Required]
         public string DirectorOfBasketballOperationsName { get; set; }
 
-       
+        
+
+
     }
 }

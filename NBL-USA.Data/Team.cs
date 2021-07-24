@@ -11,7 +11,7 @@ namespace NBL_USA.Data
     public class Team
     {
         [Key]
-        public int TeamID { get; set; }
+        public int TeamId { get; set; }
 
         [Required]
         public string TeamOwner { get; set; }

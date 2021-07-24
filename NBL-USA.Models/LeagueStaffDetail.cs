@@ -11,5 +11,6 @@ namespace NBL_USA.Models
         public int LeagueStaffId { get; set; }
         public string LeagueStaffName { get; set; }
         public string LeagueStaffPosition { get; set; }
+        public bool LeagueStaffStillWorking { get; set; }
     }
 }
