@@ -251,6 +251,10 @@
     <Content Include="Views\LeagueStaff\Delete.cshtml" />
     <Content Include="Views\FrontOfficeStaff\Details.cshtml" />
     <Content Include="Views\FrontOfficeStaff\Edit.cshtml" />
+    <Content Include="Views\Team\Details.cshtml" />
+    <Content Include="Views\Team\Edit.cshtml" />
+    <Content Include="Views\FrontOfficeStaff\Delete.cshtml" />
+    <Content Include="Views\Team\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
