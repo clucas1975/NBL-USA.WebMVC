@@ -36,7 +36,7 @@ namespace NBL_USA.WebMVC.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(LeagueStaff model)
         {
-            if (ModelState.IsValid) return View(model);
+            if (!ModelState.IsValid) return View(model);
 
             var service = CreateLeagueStaffService();
 

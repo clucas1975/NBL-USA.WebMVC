@@ -10,7 +10,7 @@ namespace NBL_USA.Services
 {
     public class FrontOfficeStaffService
     {
-        public bool CreateFrontOfficeStaff(FrontOfficeStaffCreate model)
+        public bool CreateFrontOfficeStaff(FrontOfficeStaff model)
         {
             var entity =
                 new FrontOfficeStaff()

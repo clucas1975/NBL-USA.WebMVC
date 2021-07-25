@@ -15,8 +15,9 @@ namespace NBL_USA.WebMVC.Controllers
         // GET: FrontOfficeStaff
         public ActionResult Index()
         {
-            var model = new FrontOfficeStaffListItem[0];
-            return View(_db.FrontOfficeStaffs.ToList());
+            var service = new FrontOfficeStaffService();
+            var model = service.GetFrontOfficeStaffs();
+            return View(model);
         }
 
         //Add method here VVVV
@@ -32,14 +33,20 @@ namespace NBL_USA.WebMVC.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(FrontOfficeStaff model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid) return View(model);
+            var service = CreateFrontOfficeStaffService();
+
+            if (service.CreateFrontOfficeStaff(model))
             {
-                _db.FrontOfficeStaffs.Add(model);
-                _db.SaveChanges();
+                TempData["SaveResult"] = "Your Front Office Staff was created.";//TempData removes info after it's accessed.
+
+
                 return RedirectToAction("Index");
-            }
-            return View(model
-                );
+            };
+            ModelState.AddModelError("", "Front Office Staff could not be created.");
+
+            return View(model);
+
         }
 
         public ActionResult Details(int id)
@@ -109,8 +116,8 @@ namespace NBL_USA.WebMVC.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeletePost(int id)
         {
-            var svc = CreateFrontOfficeStaffService();
-            //service.DeleteFrontOfficeStaff(id);
+            var service = CreateFrontOfficeStaffService();
+            service.DeleteFrontOfficeStaff(id);
 
             TempData["Save Result"] = "Your Front Office Staff was deleted";
             return RedirectToAction("Index");

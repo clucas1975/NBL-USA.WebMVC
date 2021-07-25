@@ -10,7 +10,7 @@ namespace NBL_USA.Models
    public class TeamListItem
     {
         [Key]
-        public int TeamID { get; set; }
+        public int TeamId { get; set; }
 
         [Required]
         public string TeamOwner { get; set; }
