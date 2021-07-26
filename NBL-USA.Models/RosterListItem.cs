@@ -10,7 +10,7 @@ namespace NBL_USA.Models
     public class RosterListItem
     {
         [Key]
-        public int RosterID { get; set; }
+        public int RosterId { get; set; }
 
         [Required]
         public string CoachName { get; set; }

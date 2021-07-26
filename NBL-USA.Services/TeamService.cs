@@ -99,6 +99,7 @@ namespace NBL_USA.Services
                 ctx.Teams.Remove(entity);
 
                 return ctx.SaveChanges() == 1;
+
             }
 
                

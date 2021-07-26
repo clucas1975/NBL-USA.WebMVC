@@ -8,7 +8,7 @@ namespace NBL_USA.Models
 {
     public class RosterDetail
     {
-        public int RosterID { get; set; }
+        public int RosterId { get; set; }
         public string CoachName { get; set; }
         public string AssistantCoachName { get; set; }
         public bool StillActive { get; set; }
