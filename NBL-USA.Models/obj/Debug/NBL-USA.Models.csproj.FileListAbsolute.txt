@@ -1,0 +1,15 @@
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\bin\Debug\NBL-USA.Models.dll.config
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\bin\Debug\NBL-USA.Models.dll
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\bin\Debug\NBL-USA.Models.pdb
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\bin\Debug\EntityFramework.dll
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\bin\Debug\EntityFramework.xml
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\obj\Debug\NBL-USA.Models.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\obj\Debug\NBL-USA.Models.csproj.CopyComplete
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\obj\Debug\NBL-USA.Models.dll
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Models\obj\Debug\NBL-USA.Models.pdb

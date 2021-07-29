@@ -1,0 +1,56 @@
+﻿@model NBL_USA.Models.FrontOfficeStaffDetail
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>FrontOfficeStaffDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FrontOfficeStaffId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FrontOfficeStaffId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamGeneralManagerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamGeneralManagerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AcademicAdvisorName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AcademicAdvisorName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DirectorOfBasketballOperationsName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DirectorOfBasketballOperationsName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

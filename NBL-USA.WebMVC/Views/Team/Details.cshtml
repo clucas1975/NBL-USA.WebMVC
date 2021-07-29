@@ -1,0 +1,58 @@
+﻿@model NBL_USA.Models.TeamDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TeamDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamOwner)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamOwner)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamLocation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamLocation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamArena)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamArena)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
