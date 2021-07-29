@@ -5,6 +5,12 @@ C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\EntityFramework.dll
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\EntityFramework.SqlServer.dll
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Data.dll
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Models.dll
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Data.pdb
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Data.dll.config
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Models.pdb
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Models.dll.config
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\EntityFramework.xml
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\EntityFramework.SqlServer.xml
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
@@ -14,9 +20,3 @@ C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\obj\Debug\NBL-USA.Services.cspro
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\obj\Debug\NBL-USA.Services.csproj.CopyComplete
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\obj\Debug\NBL-USA.Services.dll
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\obj\Debug\NBL-USA.Services.pdb
-C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Data.dll
-C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Models.dll
-C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Data.pdb
-C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Data.dll.config
-C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Models.pdb
-C:\ElevenFiftyProjects\NBL-USA\NBL-USA.Services\bin\Debug\NBL-USA.Models.dll.config

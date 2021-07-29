@@ -18,6 +18,7 @@ namespace NBL_USA.Services
                     TeamGeneralManagerName = model.TeamGeneralManagerName,
                     AcademicAdvisorName = model.AcademicAdvisorName,
                     DirectorOfBasketballOperationsName = model.DirectorOfBasketballOperationsName
+                    
                 };
             using (var ctx = new ApplicationDbContext())
             {

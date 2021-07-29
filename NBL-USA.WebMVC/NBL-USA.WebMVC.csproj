@@ -255,6 +255,9 @@
     <Content Include="Views\Team\Edit.cshtml" />
     <Content Include="Views\FrontOfficeStaff\Delete.cshtml" />
     <Content Include="Views\Team\Delete.cshtml" />
+    <Content Include="Views\Roster\Details.cshtml" />
+    <Content Include="Views\Roster\Edit.cshtml" />
+    <Content Include="Views\Roster\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

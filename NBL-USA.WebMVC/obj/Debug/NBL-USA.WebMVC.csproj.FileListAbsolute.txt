@@ -1,5 +1,3 @@
-C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\obj\Debug\NBL-USA.WebMVC.csprojAssemblyReference.cache
-C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\obj\Debug\NBL-USA.WebMVC.csproj.CoreCompileInputs.cache
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\bin\NBL-USA.WebMVC.dll.config
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\bin\NBL-USA.WebMVC.dll
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\bin\NBL-USA.WebMVC.pdb
@@ -112,6 +110,8 @@ C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\bin\Microsoft.Owin.Security.Twitte
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\bin\Microsoft.Owin.Security.OAuth.xml
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\obj\Debug\NBL-USA.WebMVC.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\obj\Debug\NBL-USA.WebMVC.csproj.CoreCompileInputs.cache
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\obj\Debug\NBL-USA.WebMVC.csproj.CopyComplete
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\obj\Debug\NBL-USA.WebMVC.dll
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\obj\Debug\NBL-USA.WebMVC.pdb

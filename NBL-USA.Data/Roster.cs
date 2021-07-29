@@ -25,12 +25,13 @@ namespace NBL_USA.Data
         public bool StillActive { get; set; }
 
         [Required]
-        public ICollection<Roster> ListOfPlayers { get; set; }
+        public virtual ICollection<Team> ListOfPlayers { get; set; }
 
-        public Roster()
+       public Roster()
         {
-            ListOfPlayers = new HashSet<Roster>();
+            ListOfPlayers = new HashSet<Team>();
         }
+
     }
     
 }

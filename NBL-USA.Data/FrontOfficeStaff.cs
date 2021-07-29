@@ -15,11 +15,11 @@ namespace NBL_USA.Data
         public int FrontOfficeStaffId { get; set; }
 
         [ForeignKey(nameof(Team))]
-        public int TeamId { get; set; }
+        public int? TeamId { get; set; }
         public virtual Team Team { get; set; }
 
         [ForeignKey(nameof(Roster))]
-        public int RosterId { get; set; }
+        public int? RosterId { get; set; }
         public virtual Roster Roster { get; set; }
 
         [Required]
@@ -32,12 +32,16 @@ namespace NBL_USA.Data
         public string DirectorOfBasketballOperationsName { get; set; }
 
         [Required]
-        public ICollection<FrontOfficeStaff> ListOfOwners { get; set; }
+        public virtual ICollection<Team> ListOfTeamOwners { get; set; }
 
         public FrontOfficeStaff()
         {
-            ListOfOwners = new HashSet<FrontOfficeStaff>();
+            ListOfTeamOwners = new HashSet<Team>();
         }
+
+       
+
+     
         
            
    }
