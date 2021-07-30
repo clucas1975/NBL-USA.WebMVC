@@ -3,7 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title -NBL-USA</title>
+    <title>@ViewBag.Title -NBL-USA
+    
+    </title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -23,11 +25,13 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     @if (User.Identity.IsAuthenticated)
-            {
-                <li>@Html.ActionLink("LeagueStaffs", "Index", "LeagueStaff")</li>
-                <li>@Html.ActionLink("Teams", "Index", "Team")</li>
-            }
-                    
+                    {
+                        <li>@Html.ActionLink("LeagueStaffs", "Index", "LeagueStaff")</li>
+                        <li>@Html.ActionLink("Teams", "Index", "Team")</li>
+                        <li>@Html.ActionLink("Rosters", "Index", "Roster")</li>
+                        <li>@Html.ActionLink("FrontOfficeStaffs", "Index", "FrontOfficeStaff")</li>
+                    }
+
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>

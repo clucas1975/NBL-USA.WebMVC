@@ -30,7 +30,7 @@ namespace NBL_USA.WebMVC.Controllers
         //Add code here vvvv
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Team model)
+        public ActionResult Create(TeamCreate model)
         {
             if (!ModelState.IsValid) return View(model);
             var service = CreateTeamService();

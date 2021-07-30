@@ -10,7 +10,7 @@ namespace NBL_USA.Services
 {
     public class TeamService
     {
-        public bool CreateTeam(Team model)
+        public bool CreateTeam(TeamCreate model)
         {
             var entity =
                 new Team()
