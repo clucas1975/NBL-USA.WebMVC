@@ -15,12 +15,8 @@ namespace NBL_USA.Data
         public int FrontOfficeStaffId { get; set; }
 
         [ForeignKey(nameof(Team))]
-        public int? TeamId { get; set; }
+        public int TeamId { get; set; }
         public virtual Team Team { get; set; }
-
-        [ForeignKey(nameof(Roster))]
-        public int? RosterId { get; set; }
-        public virtual Roster Roster { get; set; }
 
         [Required]
         public string TeamGeneralManagerName { get; set; }

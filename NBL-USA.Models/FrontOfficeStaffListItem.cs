@@ -24,7 +24,9 @@ namespace NBL_USA.Models
         [Required]
         public string DirectorOfBasketballOperationsName { get; set; }
 
-        
+        public int TeamId { get; set; }
+
+
 
 
     }

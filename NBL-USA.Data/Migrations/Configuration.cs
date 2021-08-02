@@ -10,7 +10,6 @@ namespace NBL_USA.Data.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "NBL_USA.Data.ApplicationDbContext";
         }
 
         protected override void Seed(NBL_USA.Data.ApplicationDbContext context)

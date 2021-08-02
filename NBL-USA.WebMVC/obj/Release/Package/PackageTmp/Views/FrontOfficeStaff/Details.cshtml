@@ -1,0 +1,50 @@
+﻿@model NBL_USA.Models.FrontOfficeStaffDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>FrontOfficeStaffDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FrontOfficeStaffId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FrontOfficeStaffId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TeamGeneralManagerName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TeamGeneralManagerName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AcademicAdvisorName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AcademicAdvisorName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DirectorOfBasketballOperationsName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DirectorOfBasketballOperationsName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

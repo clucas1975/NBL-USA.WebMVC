@@ -14,7 +14,13 @@ namespace NBL_USA.Models
         [MinLength(2, ErrorMessage = "Please enter at least 2 characters.")]
         [MaxLength(100, ErrorMessage = "There are too many characters in this field.")]
         public string TeamGeneralManagerName { get; set; }
+
         public string AcademicAdvisorName { get; set; }
+
         public string DirectorOfBasketballOperationsName { get; set; }
+
+        public int TeamId { get; set; }
+
+
     }
 }

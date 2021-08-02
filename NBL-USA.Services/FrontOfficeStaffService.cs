@@ -17,7 +17,8 @@ namespace NBL_USA.Services
                 {
                     TeamGeneralManagerName = model.TeamGeneralManagerName,
                     AcademicAdvisorName = model.AcademicAdvisorName,
-                    DirectorOfBasketballOperationsName = model.DirectorOfBasketballOperationsName
+                    DirectorOfBasketballOperationsName = model.DirectorOfBasketballOperationsName,
+                    TeamId = model.TeamId
                     
                 };
             using (var ctx = new ApplicationDbContext())
@@ -41,7 +42,8 @@ namespace NBL_USA.Services
                             FrontOfficeStaffId = e.FrontOfficeStaffId,
                             TeamGeneralManagerName = e.TeamGeneralManagerName,
                             AcademicAdvisorName = e.AcademicAdvisorName,
-                            DirectorOfBasketballOperationsName = e.DirectorOfBasketballOperationsName
+                            DirectorOfBasketballOperationsName = e.DirectorOfBasketballOperationsName,
+                            TeamId = e.TeamId
                         }
                         );
                 return query.ToArray();
@@ -63,7 +65,8 @@ namespace NBL_USA.Services
                         FrontOfficeStaffId = entity.FrontOfficeStaffId,
                         TeamGeneralManagerName = entity.TeamGeneralManagerName,
                         AcademicAdvisorName = entity.AcademicAdvisorName,
-                        DirectorOfBasketballOperationsName = entity.DirectorOfBasketballOperationsName
+                        DirectorOfBasketballOperationsName = entity.DirectorOfBasketballOperationsName,
+                        TeamId = entity.TeamId
                     };
             }
         }
@@ -79,6 +82,7 @@ namespace NBL_USA.Services
                 entity.TeamGeneralManagerName = model.TeamGeneralManagerName;
                 entity.AcademicAdvisorName = model.AcademicAdvisorName;
                 entity.DirectorOfBasketballOperationsName = model.DirectorOfBasketballOperationsName;
+                entity.TeamId = model.TeamId;
 
                 return ctx.SaveChanges() == 1;
             }

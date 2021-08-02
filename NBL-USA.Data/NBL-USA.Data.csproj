@@ -12,6 +12,8 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -57,13 +59,9 @@
     <Compile Include="FrontOfficeStaff.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="LeagueStaff.cs" />
-    <Compile Include="Migrations\202107280145468_InitialCreate.cs" />
-    <Compile Include="Migrations\202107280145468_InitialCreate.Designer.cs">
-      <DependentUpon>202107280145468_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202107300124323_TeamCorrections.cs" />
-    <Compile Include="Migrations\202107300124323_TeamCorrections.Designer.cs">
-      <DependentUpon>202107300124323_TeamCorrections.cs</DependentUpon>
+    <Compile Include="Migrations\202108022041245_initialMigration.cs" />
+    <Compile Include="Migrations\202108022041245_initialMigration.Designer.cs">
+      <DependentUpon>202108022041245_initialMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,11 +73,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202107280145468_InitialCreate.resx">
-      <DependentUpon>202107280145468_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202107300124323_TeamCorrections.resx">
-      <DependentUpon>202107300124323_TeamCorrections.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202108022041245_initialMigration.resx">
+      <DependentUpon>202108022041245_initialMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -12,5 +12,6 @@ namespace NBL_USA.Models
         public string TeamGeneralManagerName { get; set; }
         public string AcademicAdvisorName { get; set; }
         public string DirectorOfBasketballOperationsName { get; set; }
+        public int TeamId { get; set; }
     }
 }

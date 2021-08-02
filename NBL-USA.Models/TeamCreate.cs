@@ -16,5 +16,6 @@ namespace NBL_USA.Models
         public string TeamName { get; set; }
         public string TeamLocation { get; set; }
         public string TeamArena { get; set; }
+        public string TeamPlayers { get; set; }
     }
 }

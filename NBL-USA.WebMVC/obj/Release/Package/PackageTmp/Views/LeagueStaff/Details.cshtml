@@ -1,0 +1,42 @@
+﻿@model NBL_USA.Models.LeagueStaffDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>LeagueStaffDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LeagueStaffId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LeagueStaffId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LeagueStaffName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LeagueStaffName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LeagueStaffPosition)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LeagueStaffPosition)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.LeagueStaffId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -25,10 +25,10 @@ namespace NBL_USA.Data
         [Required]
         public string TeamArena { get; set; }
 
-       
+
         public string TeamPlayers { get; set; }
 
-       
+
     }
     
 }
