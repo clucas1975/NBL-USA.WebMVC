@@ -64,6 +64,10 @@
     <Compile Include="LeagueStaffDetail.cs" />
     <Compile Include="LeagueStaffEdit.cs" />
     <Compile Include="LeagueStaffListItem.cs" />
+    <Compile Include="PlayersCreate.cs" />
+    <Compile Include="PlayersDetail.cs" />
+    <Compile Include="PlayersEdit.cs" />
+    <Compile Include="PlayersListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RosterCreate.cs" />
     <Compile Include="RosterDetail.cs" />

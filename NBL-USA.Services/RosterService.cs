@@ -17,7 +17,8 @@ namespace NBL_USA.Services
                 {
                     CoachName = model.CoachName,
                     AssistantCoachName = model.AssistantCoachName,
-                    StillActive = model.StillActive
+                    StillActive = model.StillActive,
+                   TeamId = model.TeamId
                 };
             using(var ctx = new ApplicationDbContext())
             {

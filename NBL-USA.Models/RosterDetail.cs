@@ -12,5 +12,6 @@ namespace NBL_USA.Models
         public string CoachName { get; set; }
         public string AssistantCoachName { get; set; }
         public bool StillActive { get; set; }
+        public int TeamId { get; set; }
     }
 }

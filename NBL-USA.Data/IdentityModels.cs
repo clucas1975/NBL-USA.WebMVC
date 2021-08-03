@@ -36,6 +36,7 @@ namespace NBL_USA.Data
         public DbSet<Team> Teams { get; set; }
         public DbSet<Roster> Rosters { get; set; }
         public DbSet<FrontOfficeStaff> FrontOfficeStaffs { get; set; }
+        public DbSet<Players> Players { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

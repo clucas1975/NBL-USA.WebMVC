@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="FrontOfficeStaffService.cs" />
     <Compile Include="LeagueStaffService.cs" />
+    <Compile Include="PlayersService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RosterService.cs" />
     <Compile Include="TeamService.cs" />

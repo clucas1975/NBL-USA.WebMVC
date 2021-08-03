@@ -17,5 +17,8 @@ namespace NBL_USA.Models
 
         [Required]
         public string AssistantCoachName { get; set; }
+
+        [Required]
+        public int TeamId { get; set; }
     }
 }
