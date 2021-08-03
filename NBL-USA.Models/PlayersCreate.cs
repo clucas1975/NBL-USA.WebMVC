@@ -21,5 +21,7 @@ namespace NBL_USA.Models
         public decimal PlayerHeight { get; set; }
 
         public decimal PlayerWeight { get; set; }
+
+        public int RosterId { get; set; }
     }
 }

@@ -40,7 +40,8 @@ namespace NBL_USA.Services
                         {
                             RosterId = e.RosterId,
                             CoachName = e.CoachName,
-                            AssistantCoachName = e.AssistantCoachName
+                            AssistantCoachName = e.AssistantCoachName,
+                            TeamId = e.TeamId
                         });
                 return query.ToArray();
             }
@@ -60,7 +61,8 @@ namespace NBL_USA.Services
                         RosterId = entity.RosterId,
                         CoachName = entity.CoachName,
                         AssistantCoachName = entity.AssistantCoachName,
-                        StillActive = entity.StillActive
+                        StillActive = entity.StillActive,
+                        TeamId = entity.TeamId
                     };
             }
         }
@@ -76,6 +78,7 @@ namespace NBL_USA.Services
                 entity.CoachName = model.CoachName;
                 entity.AssistantCoachName = model.AssistantCoachName;
                 entity.StillActive = model.StillActive;
+                entity.TeamId = model.TeamId;
 
                 return ctx.SaveChanges() == 1;
             }

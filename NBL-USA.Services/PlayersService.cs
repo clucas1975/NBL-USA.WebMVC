@@ -19,7 +19,8 @@ namespace NBL_USA.Services
                     PlayerNumber = model.PlayerNumber,
                     PlayerPosition = model.PlayerPosition,
                     PlayerHeight = model.PlayerHeight,
-                    PlayerWeight = model.PlayerWeight
+                    PlayerWeight = model.PlayerWeight,
+                    RosterId = model.RosterId
                 };
             using(var ctx = new ApplicationDbContext())
             {
@@ -44,7 +45,8 @@ namespace NBL_USA.Services
                             PlayerNumber = e.PlayerNumber,
                             PlayerPosition = e.PlayerPosition,
                             PlayerHeight = e.PlayerHeight,
-                            PlayerWeight = e.PlayerWeight
+                            PlayerWeight = e.PlayerWeight,
+                            RosterId = e.RosterId
                         });
                 return query.ToArray();
             }
@@ -65,7 +67,8 @@ namespace NBL_USA.Services
                         PlayerNumber = entity.PlayerNumber,
                         PlayerPosition = entity.PlayerPosition,
                         PlayerHeight = entity.PlayerHeight,
-                        PlayerWeight = entity.PlayerWeight
+                        PlayerWeight = entity.PlayerWeight,
+                        RosterId = entity.RosterId
                     };
             }
         }
@@ -83,6 +86,7 @@ namespace NBL_USA.Services
                 entity.PlayerPosition = model.PlayerPosition;
                 entity.PlayerHeight = model.PlayerHeight;
                 entity.PlayerWeight = model.PlayerWeight;
+                entity.RosterId = model.RosterId;
 
                 return ctx.SaveChanges() == 1;
             }

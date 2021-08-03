@@ -69,7 +69,8 @@ namespace NBL_USA.WebMVC.Controllers
                     PlayerNumber = detail.PlayerNumber,
                     PlayerPosition = detail.PlayerPosition,
                     PlayerHeight = detail.PlayerHeight,
-                    PlayerWeight = detail.PlayerWeight
+                    PlayerWeight = detail.PlayerWeight,
+                    RosterId = detail.RosterId
                 };
             return View(model);
         }

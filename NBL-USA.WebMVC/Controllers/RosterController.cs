@@ -68,7 +68,8 @@ namespace NBL_USA.WebMVC.Controllers
                     RosterId = detail.RosterId,
                     CoachName = detail.CoachName,
                     AssistantCoachName = detail.AssistantCoachName,
-                    StillActive = detail.StillActive
+                    StillActive = detail.StillActive,
+                    TeamId = detail.TeamId
                 };
             return View(model);
         }

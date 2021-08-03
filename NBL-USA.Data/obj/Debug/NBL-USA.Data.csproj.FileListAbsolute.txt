@@ -30,5 +30,3 @@ C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\NBL-USA.Data\obj\Debug\NBL-USA.Dat
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\NBL-USA.Data\obj\Debug\NBL-USA.Data.csproj.CopyComplete
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\NBL-USA.Data\obj\Debug\NBL-USA.Data.dll
 C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\NBL-USA.Data\obj\Debug\NBL-USA.Data.pdb
-C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\NBL-USA.Data\obj\Debug\NBL_USA.Data.Migrations.initialMigration.resources
-C:\ElevenFiftyProjects\NBL-USA\NBL-USA.WebMVC\NBL-USA.Data\obj\Debug\NBL-USA.Data.csproj.GenerateResource.cache

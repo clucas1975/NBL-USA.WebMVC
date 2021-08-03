@@ -13,6 +13,10 @@ namespace NBL_USA.Data
         [Key]
         public int PlayerId { get; set; }
 
+        [ForeignKey(nameof(Roster))]
+        public int RosterId { get; set; }
+        public virtual Roster Roster { get; set; }
+
         [Required]
         public string PlayerName { get; set; }
 
