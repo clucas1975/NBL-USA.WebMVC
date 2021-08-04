@@ -63,6 +63,7 @@ namespace NBL_USA.Services
                 return
                     new PlayersDetail
                     {
+                        PlayerId = entity.PlayerId,
                         PlayerName = entity.PlayerName,
                         PlayerNumber = entity.PlayerNumber,
                         PlayerPosition = entity.PlayerPosition,
@@ -81,6 +82,7 @@ namespace NBL_USA.Services
                     ctx
                         .Players
                         .Single(e => e.PlayerId == model.PlayerId);
+                entity.PlayerId = model.PlayerId;
                 entity.PlayerName = model.PlayerName;
                 entity.PlayerNumber = model.PlayerNumber;
                 entity.PlayerPosition = model.PlayerPosition;
